@@ -3,9 +3,9 @@ from graph import *
 #Importamos la libreria colorama para dar color al texto.
 from colorama import *
 #Asignamos valores a nuestras variables Nodos.
-e1="Entrada 1"
-e2="Entrada 2"
-e3="Entrada 3"
+e1="E1"
+e2="E2"
+e3="E3"
 a="A"
 b="B"
 c="C"
@@ -24,8 +24,8 @@ o="O"
 p="P"
 q="Q"
 r="R"
-canchas="Canchas de Futbol/Basquetbol"
-pingpong="Mesas de Ping Pong"
+canchas="CANCHAS"
+pingpong="MESAS"
 #Igualamos la variavle grafo a la funcion grafo en graph.py.
 grafo = Grafo()
 #La funcion Agregar de graph.py recibe un grafo y un elemento de ese grafo.
@@ -153,6 +153,7 @@ print(grafo.relaciones,"\n")
 #2 El nodo Inicial
 #3 El nodo Destino
 #4 La funcion Imprimir
+"""
 print (Fore.BLACK+Back.WHITE+"Profundidad\n")
 auxDestinoP = input("Ingresa tu Destino: ")
 destinoP = auxDestinoP.upper()
@@ -163,7 +164,15 @@ profundidadPrimero(grafo, e2, destinoP, imprimir)
 #2 El nodo Inicial
 #3 El nodo Destino
 #4 La funcion Imprimir
-print (Fore.BLACK+Back.CYAN+"\nAncho\n")
+"""
+print (Fore.BLACK+Back.WHITE+"\nAncho\n")
 auxDestinoA = input("Ingresa tu Destino: ")
 destinoA = auxDestinoA.upper()
 anchoPrimero(grafo, e2, destinoA, imprimir)
+
+
+
+print (Fore.BLACK+Back.CYAN+"\npro\n")
+auxDestinoA = input("Ingresa tu Destino: ")
+destinoA = auxDestinoA.upper()
+proPrimero(grafo, e2, destinoA, imprimir)

@@ -165,14 +165,14 @@ profundidadPrimero(grafo, e2, destinoP, imprimir)
 #3 El nodo Destino
 #4 La funcion Imprimir
 """
-print (Fore.BLACK+Back.WHITE+"\nAncho\n")
+print (Fore.BLACK+Back.WHITE+"\nAmplitud\n")
 auxDestinoA = input("Ingresa tu Destino: ")
 destinoA = auxDestinoA.upper()
 anchoPrimero(grafo, e2, destinoA, imprimir)
 
 
 
-print (Fore.BLACK+Back.CYAN+"\npro\n")
+print (Fore.BLACK+Back.CYAN+"\nProfundidad\n")
 auxDestinoA = input("Ingresa tu Destino: ")
 destinoA = auxDestinoA.upper()
 proPrimero(grafo, e2, destinoA, imprimir)
